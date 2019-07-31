@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-vendors~8fafee1f"],{"531c":function(e,n,a){"use strict";a.d(n,"a",function(){return t});var c=a("4d91"),s=a("6f54"),t=c["a"].shape({setState:c["a"].func,getState:c["a"].func,subscribe:c["a"].func}).loose,u=s["a"];n["b"]=u}}]);
+//# sourceMappingURL=chunk-vendors~8fafee1f.90f82e5d.js.map

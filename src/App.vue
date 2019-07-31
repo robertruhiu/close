@@ -1,28 +1,46 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <router-view/>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import UsersService from '@/services/UsersService'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'app',
+        async mounted() {
+            const auth = {
+                headers: {Authorization: 'JWT ' + this.$store.state.token}
+
+            }
+            UsersService.authenticated(this.$store.state.user.pk, auth)
+                .then()
+                .catch(error => {
+                        this.$store.dispatch('setToken', null)
+                        this.$store.dispatch('setUser', null)
+                        this.$store.dispatch('setisLoggedIn', false)
+                        this.$store.dispatch('setUsertype', null)
+                        this.$store.dispatch('setUser_id', null)
+                        this.$router.push({
+                            name: 'home'
+                        })
+                        console.log(error)
+
+                    }
+                )
+
+
+        }
+
+
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    #app {
+        display: grid;
+        background-color: white;
+
+    }
 </style>

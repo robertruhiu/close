@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-vendors~4fd6e351"],{"0c26":function(n,i,c){"use strict";i["a"]={methods:{handelClick:function(n){this.$emit("click",n)}},render:function(){var n=arguments[0],i=this.$slots,c=this.handelClick;return n("div",{on:{click:c}},[i["default"]])}}}}]);
+//# sourceMappingURL=chunk-vendors~4fd6e351.577f0af0.js.map

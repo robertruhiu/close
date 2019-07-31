@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-vendors~872252ac"],{"6f6c":function(n,c){var e=/\w*$/;function o(n){var c=new n.constructor(n.source,e.exec(n));return c.lastIndex=n.lastIndex,c}n.exports=o}}]);
+//# sourceMappingURL=chunk-vendors~872252ac.c4762562.js.map

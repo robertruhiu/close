@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["app~3f8e213e"],{"3f4a":function(t,n,e){"use strict";var a=e("bc3a"),r=e.n(a);n["a"]=function(){return r.a.create({baseURL:"https://codelnapi.herokuapp.com"})}},b012:function(t,n,e){"use strict";var a=e("3f4a");n["a"]={register:function(t){return Object(a["a"])().post("rest-auth/registration/",t)},login:function(t){return Object(a["a"])().post("rest-auth/login/",t)}}}}]);
+//# sourceMappingURL=app~3f8e213e.a08db435.js.map

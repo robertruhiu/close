@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-vendors~d9fae6c7"],{ce04:function(n,e,t){(function(){var e={install:function(n){n.filter("truncate",function(n,e,t){if(t=t||"...",e=e||30,n.length<=e)return n;var c=n.slice(0,e-t.length),i=c.length-1;while(i>0&&" "!==c[i]&&c[i]!==t[0])i-=1;return i=i||e-t.length,c=c.slice(0,i),c+t})}};n.exports=e})()}}]);
+//# sourceMappingURL=chunk-vendors~d9fae6c7.950f9156.js.map

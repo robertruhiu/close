@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["app~d19f4e05"],{e7de:function(e,a,o){"use strict";var n=o("96c7"),p=o("da05"),s=o("9ef1");a["a"]={name:"terms",components:{ACol:p["b"],Pageheader:n["a"],Footer:s["a"]}}}}]);
+//# sourceMappingURL=app~d19f4e05.c754ad64.js.map

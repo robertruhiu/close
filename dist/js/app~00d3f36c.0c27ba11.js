@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["app~00d3f36c"],{cbac:function(s,t,e){"use strict";t["a"]={name:"Header",methods:{logout:function(){this.$store.dispatch("setToken",null),this.$store.dispatch("setUser",null),this.$store.dispatch("setisLoggedIn",!1),this.$store.dispatch("setUsertype",null),this.$store.dispatch("setUser_id",null),this.$router.push({name:"home"})}}}}}]);
+//# sourceMappingURL=app~00d3f36c.0c27ba11.js.map

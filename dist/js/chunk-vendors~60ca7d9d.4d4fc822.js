@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-vendors~60ca7d9d"],{a5b8:function(o,n,r){"use strict";var e=r("d8e8");function i(o){var n,r;this.promise=new o(function(o,e){if(void 0!==n||void 0!==r)throw TypeError("Bad Promise constructor");n=o,r=e}),this.resolve=e(n),this.reject=e(r)}o.exports.f=function(o){return new i(o)}}}]);
+//# sourceMappingURL=chunk-vendors~60ca7d9d.4d4fc822.js.map

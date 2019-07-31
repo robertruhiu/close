@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-vendors~662a8919"],{"3af3":function(a,e,n){"use strict";var o=n("2b0e"),t=n("d65b"),f=n("46cf"),p=n.n(f),u=n("dfdf");o["default"].use(p.a,{name:"ant-ref"}),o["default"].use(u["a"]),o["default"].prototype.$form=t["a"],t["a"].install=function(a){a.component(t["a"].name,t["a"]),a.component(t["a"].Item.name,t["a"].Item),a.prototype.$form=t["a"]},e["a"]=t["a"]}}]);
+//# sourceMappingURL=chunk-vendors~662a8919.7be0795c.js.map
