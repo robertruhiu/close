@@ -127,7 +127,7 @@
                         this.applied = true
                     )
                     .catch(error => {
-                        console.log(error)
+                        return error
 
 
                     });

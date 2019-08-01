@@ -162,7 +162,7 @@
 
                                     })
                                     .catch(error => {
-                                        console.log(error)
+                                        return error
 
 
                                     });
@@ -170,8 +170,8 @@
 
                             })
                             .catch(error => {
-                                console.log(error)
                                 this.error = 'login details incorrect'
+                                return error
 
                             });
 

@@ -356,7 +356,7 @@
                 const nextSelectedTags = checked
                     ? [...selectedtech, tag]
                     : selectedtech.filter(t => t !== tag)
-                console.log('You are interested in: ', nextSelectedTags)
+
                 this.selectedtech = nextSelectedTags
             },
 
@@ -380,7 +380,7 @@
                 this.visible = true
 
             },
-            handleOk(e) {
+            handleOk() {
 
                 this.visible = false
             },

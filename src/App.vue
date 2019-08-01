@@ -25,7 +25,7 @@
                         this.$router.push({
                             name: 'home'
                         })
-                        console.log(error)
+
 
                     }
                 )

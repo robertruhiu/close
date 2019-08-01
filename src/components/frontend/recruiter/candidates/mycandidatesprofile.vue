@@ -373,7 +373,7 @@
                 this.visible = true
 
             },
-            handleOk(e) {
+            handleOk() {
 
                 this.visible = false
             },

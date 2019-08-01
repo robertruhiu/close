@@ -92,7 +92,7 @@
                         >
 
                             <a-list-item
-                                    slot="renderItem" slot-scope="item, index" key="item.title">
+                                    slot="renderItem" slot-scope="item" key="item.title">
 
 
                                 <a-row style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);height: 9rem">
@@ -224,7 +224,7 @@
                 listData: [],
                 pagination: {
                     onChange: (page) => {
-                        console.log(page);
+                        return page;
                     },
                     pageSize: 3,
                 },

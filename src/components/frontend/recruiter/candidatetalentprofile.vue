@@ -321,7 +321,7 @@
                         this.picked = true
                     )
                     .catch(error => {
-                        console.log(error)
+                        return error
 
 
                     });
@@ -340,9 +340,7 @@
                     name: 'home'
                 })
             },
-            navigateTo(route) {
-                this.$router.push(route)
-            },
+
 
         },
 

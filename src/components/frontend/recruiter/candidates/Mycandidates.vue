@@ -1116,20 +1116,7 @@
 
         },
         computed: {
-            rowSelection() {
-                const {selectedRowKeys} = this;
-                return {
-                    onChange: (selectedRowKeys, selectedRows) => {
-                        console.log(selectedRows);
-                    },
-                    getCheckboxProps: record => ({
-                        props: {
 
-                            name: record.name,
-                        }
-                    }),
-                }
-            }
         },
         methods: {
             navigateTo(route) {
@@ -1292,7 +1279,7 @@
                 this.applicationid = application
 
             },
-            handleOk(e) {
+            handleOk() {
 
                 this.visible = false
             },

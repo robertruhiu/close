@@ -20,39 +20,8 @@ import Multiselect from 'vue-multiselect'
 
 Vue.component('multiselect', Multiselect)
 import {
-    Drawer,
-    Alert,
-    Avatar,
-    Checkbox,
-    Badge,
-    Modal,
-    Button,
-    Tabs,
-    Table,
-    Card,
-    Select,
-    Col,
-    Radio,
-    Carousel,
-    Form,
-    Input,
-    InputNumber,
-    Layout,
-    List,
-    Popover,
-    AutoComplete,
-    Menu,
-    Dropdown,
-    Progress,
-    Tag,
-    DatePicker,
-    Steps,
-    Timeline,
-    Skeleton,Icon
-
-
-
-
+    Drawer,Alert,Avatar,Checkbox,Badge,Modal,Button,Tabs,Table,Card,Select,Col,Radio,Carousel,Form,Input,InputNumber,Layout,List,
+    Popover,AutoComplete,Menu,Dropdown,Progress,Tag,DatePicker,Steps,Timeline,Skeleton,Icon
 } from 'ant-design-vue';
 Vue.use(VueFormWizard)
 Vue.use(Alert);

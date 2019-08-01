@@ -1689,7 +1689,7 @@
                 this.applicationid = application
             },
 
-            handleOk(e) {
+            handleOk() {
 
                 this.visible = false
             },

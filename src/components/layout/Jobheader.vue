@@ -200,26 +200,7 @@
                 this.createEvent = true
 
             },
-            completeAppointment(popup_data, form_data) {
-                let payload = {
-                    data: {
-                        title: form_data.title,
-                        description: form_data.description
-                    },
-                    from: popup_data.appointment_props.start_value.value,
-                    to: popup_data.appointment_props.end_value.value,
-                    date: format(
-                        popup_data.appointment_props.start_value.value,
-                        "YYYY-MM-DD"
-                    )
-                };
-                this.appointments.push(payload);
-                this.new_appointment = {
-                    description: null,
-                    title: null
-                };
-                popup_data.close_popup = true;
-            },
+
 
         }
 

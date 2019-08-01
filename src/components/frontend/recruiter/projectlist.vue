@@ -15,12 +15,10 @@
 </template>
 
 <script>
-    import UsersService from '@/services/UsersService'
+
     import RecruiterSider from "../../layout/RecruiterSider";
-    import ARow from "ant-design-vue/es/grid/Row";
-    import ACol from "ant-design-vue/es/grid/Col";
     import Projectsservice from '@/services/Projects'
-    import MarketPlaceService from '@/services/Marketplace'
+
     export default {
         name: "projectlist",
         data() {

@@ -106,11 +106,11 @@
             }
         },
         methods: {
-            onCollapse(collapsed, type) {
-                console.log(collapsed, type);
+            onCollapse(collapsed) {
+                return collapsed;
             },
             onBreakpoint(broken) {
-                console.log(broken);
+                return broken;
             },
             logout() {
                 this.$store.dispatch('setToken', null);
